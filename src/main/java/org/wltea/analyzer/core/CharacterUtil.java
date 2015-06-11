@@ -65,6 +65,31 @@ class CharacterUtil {
 				return CHAR_CHINESE;
 				
 			}else if(ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS //全角数字字符和日韩字符
+                    //火星文
+                    || ub == Character.UnicodeBlock.ENCLOSED_ALPHANUMERICS //③⑶⒊
+                    || ub == Character.UnicodeBlock.DINGBATS //❸
+                    || ub == Character.UnicodeBlock.ENCLOSED_CJK_LETTERS_AND_MONTHS //㊂㋂
+                    || ub == Character.UnicodeBlock.NUMBER_FORMS //ⅲ
+                    || ub == Character.UnicodeBlock.LETTERLIKE_SYMBOLS //№
+                    || ub == Character.UnicodeBlock.CJK_COMPATIBILITY //㏢
+                    || ub == Character.UnicodeBlock.MISCELLANEOUS_SYMBOLS //♥
+                    || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_FORMS //︼
+                    || ub == Character.UnicodeBlock.ARROWS //↑
+                    || ub == Character.UnicodeBlock.MATHEMATICAL_OPERATORS //⊙
+                    || ub == Character.UnicodeBlock.BOX_DRAWING //●
+                    || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION //〇
+                    || ub == Character.UnicodeBlock.GEOMETRIC_SHAPES //◎
+                    || ub == Character.UnicodeBlock.GREEK //Ψ
+                    || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION //※
+                    || ub == Character.UnicodeBlock.ENCLOSED_CJK_LETTERS_AND_MONTHS //㊣
+                    || ub == Character.UnicodeBlock.MISCELLANEOUS_TECHNICAL //⌒
+                    || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS //卐
+                    || ub == Character.UnicodeBlock.BOPOMOFO //ㄨ
+                    || ub == Character.UnicodeBlock.BLOCK_ELEMENTS //▂ 
+                    || ub == Character.UnicodeBlock.CYRILLIC //щ 
+                    || ub == Character.UnicodeBlock.COMBINING_DIACRITICAL_MARKS //щ 
+                    || ub == Character.UnicodeBlock.MISCELLANEOUS_SYMBOLS//♪ 
+                    || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS//曱 
 					//韩文字符集
 					|| ub == Character.UnicodeBlock.HANGUL_SYLLABLES 
 					|| ub == Character.UnicodeBlock.HANGUL_JAMO
