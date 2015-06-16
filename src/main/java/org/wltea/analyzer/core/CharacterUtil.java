@@ -90,14 +90,7 @@ class CharacterUtil {
                     || ub == Character.UnicodeBlock.COMBINING_DIACRITICAL_MARKS //щ 
                     || ub == Character.UnicodeBlock.MISCELLANEOUS_SYMBOLS//♪ 
                     || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS//曱 
-					//韩文字符集
-					|| ub == Character.UnicodeBlock.HANGUL_SYLLABLES 
-					|| ub == Character.UnicodeBlock.HANGUL_JAMO
-					|| ub == Character.UnicodeBlock.HANGUL_COMPATIBILITY_JAMO
-					//日文字符集
-					|| ub == Character.UnicodeBlock.HIRAGANA //平假名
-					|| ub == Character.UnicodeBlock.KATAKANA //片假名
-					|| ub == Character.UnicodeBlock.KATAKANA_PHONETIC_EXTENSIONS){
+					){
 				return CHAR_OTHER_CJK;
 				
 			}
