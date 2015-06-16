@@ -77,7 +77,7 @@ class CharacterUtil {
                     || ub == Character.UnicodeBlock.ARROWS //↑
                     || ub == Character.UnicodeBlock.MATHEMATICAL_OPERATORS //⊙
                     || ub == Character.UnicodeBlock.BOX_DRAWING //●
-                    || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION //〇
+                    //|| ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION //〇
                     || ub == Character.UnicodeBlock.GEOMETRIC_SHAPES //◎
                     || ub == Character.UnicodeBlock.GREEK //Ψ
                     || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION //※
